@@ -1,0 +1,259 @@
+@media(max-width:1300px){
+    section.top-topic div.wrap div.left-topic{
+        width: 49%;
+    }
+    section.top-topic div.wrap div.right-topic{
+        width: 49%;
+    }
+}
+@media (max-width: 1080px){
+    .living-healthy .content-healthy .column{
+       width: 33.3333%;
+    }
+    .news-section .wrap .content-news{
+        flex-flow: column wrap !important;
+    }
+    .news-section .wrap .content-news > div{
+        width: 100%;
+        padding: 10px;
+    }
+    section.health-conditions .health-content > div{
+        width: 33.33333%;
+    }
+}
+@media (max-width: 980px){
+    section.subscribe-newsletter div.wrap > div img {
+        width: 40%;
+    }
+}
+@media (max-width: 890px){
+    section.subscribe-newsletter div.wrap > div img {
+        width: 100%;
+    }
+    section.subscribe-newsletter div.wrap > div{
+        flex-flow: column nowrap !important;
+    }
+    section.subscribe-newsletter div.wrap > div >div h4{
+        font-size: 35px;
+    }
+    section.subscribe-newsletter div.wrap > div >div p{
+        font-size: 20px;
+    }
+}
+@media (max-width: 720px){
+    section.top-topic > div{
+        flex-flow: column wrap !important;
+        align-items: start !important;
+        gap: 20px;
+    }
+    section.top-topic div.wrap div.left-topic , section.top-topic div.wrap div.right-topic{
+        width: 100%;
+        height:490px;
+        
+    }
+    section.top-topic div.wrap div.right-topic{ height: 820px;}
+    section.top-topic div.wrap div.right-topic  .r-topic.p-relative{
+        width: 100%;
+        height:400px;
+    }
+    section.top-topic div.wrap h3{
+        font-size: 25px;
+    }
+    section.top-topic div.wrap p {
+        font-size: 18px;
+    }
+    .living-healthy .content-healthy .column{
+       width: 50%;
+       height: 265px;
+    }
+    .living-healthy .wrap h3, .news-section .wrap h3, section.health-conditions h3,section.subscribe-newsletter div.wrap > div >div h4{
+        font-size: 33px;
+    }
+    .news-section .wrap .content-news > div h4,section.health-conditions .health-content > div h4{
+        font-size: 23px;
+    }
+    section.health-conditions .health-content > div{
+        width: 50%;
+        height: 315px;
+    }
+    .news-section .wrap .content-news > div >div {
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 580px){
+    section.top-topic div.wrap div.left-topic, section.top-topic div.wrap div.right-topic {
+        height: 380px;
+    }
+    section.top-topic div.wrap div.right-topic {
+        height: 780px;
+    }
+    section.top-topic div.wrap div.right-topic .r-topic.p-relative {
+        height: 380px;
+    }
+    .living-healthy .content-healthy .column h4{
+        font-size: 22px;
+    }
+    .living-healthy .wrap h3 {
+        font-size: 32px;
+    }
+    
+    .news-section .wrap h3 {
+        font-size: 32px;
+        
+    }
+    section.subscribe-newsletter div.wrap > div >div h4 {
+        font-size: 30px;
+    }
+    section.health-conditions h3 {
+        font-size: 30px;
+    }
+    section.health-conditions .health-content > div h4 {
+        font-size: 22px;
+    }
+}
+@media (max-width: 450px){
+     section.top-topic div.wrap div.left-topic, section.top-topic div.wrap div.right-topic {
+        height: 315px;
+    }
+    section.top-topic div.wrap div.right-topic {
+        height: 645px;
+    }
+    section.top-topic div.wrap div.right-topic .r-topic.p-relative {
+        height: 315px;
+    }
+    section.top-topic div.wrap h3 {
+        font-size: 22px;
+    }
+    section.top-topic div.wrap p {
+        font-size: 12px;
+    }
+    .living-healthy .wrap h3 {
+        font-size: 25px;
+    }
+    .living-healthy .wrap a {
+        font-size: 16px;
+    }
+    .living-healthy .content-healthy .column {
+      
+        height: 280px;
+    }
+    .living-healthy .content-healthy .column h4 {
+        font-size: 18px;
+    }
+    .news-section .wrap h3 {
+        font-size: 25px;
+    }
+    .news-section .wrap .content-news > div >div {
+        padding: 0 0 0 10px;
+    }
+    .news-section .wrap .content-news > div h4{
+        font-size: 18px;
+    }
+    .news-section .wrap .content-news > div img {
+        height: 110px;
+    }
+    .news-section .wrap .content-news > div p {
+        font-size: 12px;
+    }
+    section.subscribe-newsletter div.wrap > div >div h4 {
+        font-size: 22px;
+    }
+    section.subscribe-newsletter div.wrap > div >div p {
+        font-size: 14px;
+    }
+    section.subscribe-newsletter div.wrap .form input {
+        padding: 5px;
+        font-size: 16px;
+    }
+    section.subscribe-newsletter div.wrap .form input::placeholder{
+        font-size: 16px;
+    }
+    section.subscribe-newsletter div.wrap .form button {
+        padding:  5px;
+        font-size: 16px;
+    }
+    section.health-conditions h3 {
+        font-size: 22px;
+    }
+    section.health-conditions a {
+        font-size: 16px;
+    }
+    section.health-conditions .health-content > div h4 {
+        font-size: 18px;
+    }
+    section.health-conditions .health-content > div {
+        height: 300px;
+    }
+    section.health-conditions .health-content > div img {
+        height: 240px;
+    }
+    footer i {
+        font-size: 20px;
+    }
+    footer h3 {
+        font-size: 22px;
+    }
+    footer .form p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    footer .form> div {
+        margin: 20px 0 0 0;
+    }
+    footer .form input {
+        padding: 5px;
+    }
+    footer .form button {
+       font-size: 16px;
+    }
+    footer .form span{
+        font-size: 12px;
+    }
+    footer .left-footer ul li {
+        margin: 15px 0;
+        font-size: 14px;
+    }
+    footer .left-footer p{
+        font-size: 14px;
+    }
+    footer .ftr-rsd span {
+        font-size: 12px;
+    }
+}
+@media (max-width: 390px){
+    .living-healthy .content-healthy .column{
+        height: 280px;
+    }
+    .news-section .wrap .content-news > div img {
+   	max-width: 120px;
+    	width: 100%;
+	height: 100px;
+    }
+}
+
+@media (max-width: 360px){
+
+    .living-healthy .content-healthy .column h4{
+        font-size: 22px;
+    }
+}
+@media (max-width: 340px){
+    .living-healthy .content-healthy .column{
+        width: 100%;
+    }
+    section.health-conditions .health-content > div{
+        width: 100%;
+    }
+}
+@media(max-width: 300px){
+    .news-section .wrap .content-news > div > a {
+    	flex-flow: column;
+    	align-items: start !important;
+    }
+    .news-section .wrap .content-news > div img {
+    	max-width: -webkit-fill-available;
+    	height: 200px;
+    }
+}
+

@@ -1,0 +1,33 @@
+#denner-rcps, #launch-rcps, #breakfast-rcps ,#dessert-rcps{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+
+
+}
+section.rcps-section div{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center ;
+}
+#denner-rcps{
+    background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0, .5)), url('../../img/health-recipes/dinner.webp');
+    background-position: left;
+    
+}
+#breakfast-rcps{
+    background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0, .5)), url('../../img/health-recipes/breakfast.jfif');
+    background-position: right;
+    
+}
+#dessert-rcps{
+    background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0, .5)), url('../../img/health-recipes/dessert.jpg');
+    background-position: right;
+    
+}
+#launch-rcps{
+    background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0, .5)), url('../../img/health-recipes/launch.jpg');
+    background-position: right;
+    
+}

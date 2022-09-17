@@ -1,0 +1,26 @@
+section#bg-brst-cnc, section#ibd, section#migraine, section#ms, section#RA,section#T2D{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+
+}
+
+section#bg-brst-cnc{
+    background-image: url('../../img/brst-cncr/Breast-Cancer-Hub-2021-1500x450-no-text-Desktop-Key-Art-1.png');
+}
+section#ibd{
+    background-image: url('../../img/health-condition/IBD/bg.jpg');
+}
+section#migraine{
+    background-image: url('../../img/health-condition/migraine/bg.jpg');
+}
+section#ms{
+    background-image: url('../../img/health-condition/ms/bg.png');
+}
+section#RA{
+    background-image: url('../../img/health-condition/RA/RA.jpg');
+}
+section#T2D{
+    background-image: url('../../img/health-condition/diabetes/bg.jpg');
+    background-position:right;
+}

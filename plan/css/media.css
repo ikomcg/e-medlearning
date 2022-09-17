@@ -1,0 +1,16 @@
+@media(max-width:720px){
+    h1{
+        font-size: 35px;
+    }
+}
+@media(max-width:420px){
+    h1 {
+        font-size: 28px;
+    }
+    p{
+        font-size: 16px;
+    }
+    section .wrap div.form input {
+        width: 74.86211111%;
+    }
+}

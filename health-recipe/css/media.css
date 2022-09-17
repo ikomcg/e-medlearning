@@ -1,0 +1,27 @@
+@media(max-width:900px){
+    section.rcps-health div.row-rcps {
+        width: 25%;
+    }
+}
+@media(max-width:650px){
+    section.rcps-health div.row-rcps {
+        width: 33.333%;
+    }
+    
+}
+@media(max-width:480px){
+    section.rcps-health div.row-rcps {
+        width: 50%;
+        height: 270px;
+    }
+
+}
+@media(max-width:300px){
+    section.rcps-health div.row-rcps {
+        width: 100%;
+    }
+    section.rcps-health div img {
+        /* height: 245px; */
+    
+    }
+}

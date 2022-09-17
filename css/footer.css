@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+footer{
+    background-color: #fbf5edc5;
+    margin-top: 200px;
+}
+footer h1::first-letter{
+    color: #2b90f9 !important;
+}
+footer h1{
+    color: #1a1a1a !important;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Lobster', cursive;
+}
+footer >div >div{
+    padding: 50px 0;
+}
+footer >div > div > div.w-50 > div:first-child{
+    flex-flow: column wrap !important;
+}
+footer >div > div > div.w-50 > div:first-child img{
+    max-width: 100px;
+    width: 100%;
+}
+footer >div > div > div.w-50 > div:first-child ul{
+    margin: 20px 0;
+}
+footer i{
+    font-size: 30px;
+    color: #1a1a1a;
+    cursor: pointer;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li:hover{
+    color: #2b90f9;
+}
+footer h3{
+    color: #1a1a1a;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+footer .form{
+    margin: 30px 40px;
+}
+footer .form> div{
+    margin: 40px 0 0 0;
+}
+footer .form p {
+    color: #1d1d1da6;
+    font-size: 18px;
+    font-weight: 400; 
+}
+footer .form input{
+    width: 90%;
+    padding: 10px;
+    outline: none;
+}
+footer .form button{
+    background-color: #2b90f9;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 10px;
+}
+footer .left-footer{
+    width: 50%;
+    padding: 10px 25px;
+}
+footer .left-footer div.d-flex{
+    gap: 50px;
+}
+
+footer .left-footer ul li{
+    margin: 25px 0;
+    font-size: 18px;
+}
+footer .ftr-rsd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a1a;
+    padding: 20px 10px;
+}
+footer .ftr-rsd span{
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0 auto;
+}
+@media (max-width: 680px){
+    footer .wrap >div{
+        flex-flow: column wrap !important;
+    }
+    footer .wrap >div > div{
+        width: 100% !important;
+    }
+}
+@media (max-width: 450px){
+    footer >div >div {
+        padding: 35px 0;
+    }
+    footer h1{
+        font-size: 30px;
+    }
+    footer i {
+        font-size: 20px;
+    }
+    footer h3 {
+        font-size: 18px;
+    }
+    footer .form p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    footer .form> div {
+        margin: 20px 0 0 0;
+    }
+    footer .form input {
+        padding: 5px;
+        font-size: 12px;
+    }
+    footer .form button {
+       font-size: 12px;
+    }
+    footer .form span{
+        font-size: 12px;
+    }
+    footer .left-footer ul li {
+        margin: 15px 0;
+        font-size: 12px;
+    }
+    footer .left-footer p{
+        font-size: 12px;
+    }
+    footer .ftr-rsd span {
+        font-size: 12px;
+    }
+}
