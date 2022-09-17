@@ -4,17 +4,17 @@
     height: 400px;
 }
 #bg-allergies{
-    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0, .5)),url('../../img/videos_tools/allergies/bg.jpg');
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0, .5)),url('../../img/videos&tools/allergies/bg.jpg');
 }
 #bg-AD{
-    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0, .5)),url('../../img/videos_tools/ad/bg.png');
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0, .5)),url('../../img/videos&tools/ad/bg.png');
 }
 #bg-arr{
-    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0, .5)),url('../../img/videos_tools/arr/bg.jpg');
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0, .5)),url('../../img/videos&tools/arr/bg.jpg');
 }
 #bg-ath{
-    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0, .5)),url('../../img/videos_tools/ath/bg.jpg');
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0, .5)),url('../../img/videos&tools/ath/bg.jpg');
 }
 #bg-ar{
-    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0, .5)),url('../../img/videos_tools/ar/bg.jpg');
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0, .5)),url('../../img/videos&tools/ar/bg.jpg');
 }
