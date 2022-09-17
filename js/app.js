@@ -1,9 +1,10 @@
-//open close list
+
 const header = document.getElementsByTagName('header')[0]
 const img = header.getElementsByTagName('img')[0]
 img.addEventListener('click', function(){
-    window.location.href = '/index.html'
+    window.location.href = 'https://ikomcg.github.io/e-medlearning/'
 })
+//open close list
 document.getElementById('open-list').addEventListener('click',function(){
     document.getElementById('nav-bar').style.left = '0'
     document.getElementsByTagName('body')[0].classList.add('active-list')
