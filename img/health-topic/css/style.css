@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding:0;
+}
+.wrap{
+    max-width: 1400px;
+    width:100%;
+    height:-webkit-fill-available;
+    margin:0 auto;
+    padding: 0 15px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+section p,section h3{
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+     margin: 0 ;
+}
+section p {
+    padding: 5px 0 0 0;
+    color: #1a1a1a;
+    font-size: 18px;
+    font-weight: 400;
+ 
+}
+section h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+a {
+    text-decoration: none;
+    color: #1a1a1a;
+    
+}
+section.bg-brst-cnc .wrap {
+    text-align: center;
+}
+section.bg-brst-cnc .wrap div{
+    height: 350px;
+    width: 40%;
+}
+section.bg-brst-cnc .wrap div h1{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 700;
+}
+section.bg-brst-cnc .wrap div h1::first-letter{
+    color: #ffffff;
+}
+section.bg-brst-cnc .wrap div p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
+section.featured .wrap {
+    padding: 0 10px;
+    margin: 40px auto;
+}
+section h2{
+    color: #2b90f9;
+    font-size: 30px;
+    font-weight: 700;
+}
+.cntn-ftrd > div:first-child{
+    width: 50%;
+    cursor: pointer;
+}
+.cntn-ftrd > div:first-child:hover{
+    transform: scale(1.01);
+}
+.cntn-ftrd >div:first-child:hover h3{
+    color: #2b90f9;
+    
+}
+.cntn-ftrd > div:last-child{
+    padding-left: 10px;
+    width: 50%;
+    height: 500px;
+}
+.cntn-ftrd > div img{
+    width: 100%;
+    height:500px;
+    margin: 0 auto;
+}
+.cntn-ftrd > div:last-child img{
+    height: 150px;
+    max-width: 200px;
+    width: 100%;
+}
+.cntn-ftrd > div:last-child > div:hover{
+    transform: scale(1.01);
+}
+.cntn-ftrd > div:last-child > div:hover h3{
+    color: #2b90f9;
+}
+
+.brst-cancer-content{
+    margin: 40px auto;
+}
+.brst-cancer-content .row-bcc > div{
+    width: 50%;
+    padding: 30px 15px;
+}
+.brst-cancer-content .row-bcc > div:hover{
+    transform: scale(1.01);
+}
+.brst-cancer-content .row-bcc > div:hover h3{
+    color: #2b90f9;
+}
+.brst-cancer-content .row-bcc img{
+    max-width: 120px;
+    height: 125px;
+    width:100%
+}
+.brst-cancer-content .row-bcc > div a > div{
+    padding: 0 15px;
+}
+
+.brst-cancer-content .row-bcc h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #1a1a1a;
+}

@@ -1,0 +1,98 @@
+@media(max-width:1050px){
+    div.cntn-ftrd{
+        flex-flow: column wrap !important;
+        
+    }
+    .cntn-ftrd div.column-ftrd:first-child a{
+        /* flex-flow: row nowrap !important; */
+        gap: 1.5em;
+    }
+    .cntn-ftrd div.column-ftrd{
+        width: 100%;
+        padding: 10px;
+    }
+    .cntn-ftrd div.column-ftrd:last-child{
+        align-items: start !important;
+        margin: 20px 0 !important;
+    }
+    .cntn-ftrd > div:first-child img {
+        width: 100%;
+    }
+}
+@media(max-width:720px){
+    section.bg-brst-cnc .wrap div{
+        width: 100%;
+    }
+    section.bg-brst-cnc .wrap div h1{
+        font-size: 40px;
+    }
+    section h3{
+        font-size: 25px;
+    }
+    .brst-cancer-content .row-bcc h3 {
+        font-size: 22px;
+    }
+    .brst-cancer-content .row-bcc > div{
+       width: 100%;
+    }
+}
+@media(max-width:500px){
+    section.bg-brst-cnc .wrap div h1{
+        font-size: 35px;
+    }
+    section.bg-brst-cnc .wrap div p {
+        font-size: 16px;
+    }
+    .cntn-ftrd > div:first-child img {
+        height: 280px;
+    }
+     .cntn-ftrd > div:last-child img{
+        height: 280px;
+        max-width: 460px;
+        width: 100%;
+    }
+    .cntn-ftrd div.column-ftrd:last-child a{
+        flex-flow: column wrap !important;
+    }
+    .cntn-ftrd > div:last-child{
+        height: auto;
+    }
+    .cntn-ftrd div.column-ftrd:last-child > div{
+        margin: 15px 0;
+    }
+    section h3 {
+        font-size: 20px;
+    }
+}
+@media (max-width:420px){
+    .cntn-ftrd > div:first-child img {
+        height: 200px;
+    }
+    .cntn-ftrd > div:last-child img {
+        height: 200px;
+    }
+    section h2 {
+        font-size: 27px;
+    }
+    .brst-cancer-content .row-bcc > div {
+        padding: 20px 0;
+    }
+    .brst-cancer-content .row-bcc img {
+        max-width: inherit;
+        height: 200px;
+        width: 100%;
+    }
+    .brst-cancer-content .row-bcc > div a{
+        flex-flow: column wrap !important;
+    }
+    .brst-cancer-content .row-bcc > div a > div{
+        padding: 0;
+	margin:10px 0 0 0;
+    }
+    .brst-cancer-content .row-bcc h3 {
+        font-size: 18px;
+    }
+    section p {
+        font-size: 16px;
+    }
+}
